@@ -38,7 +38,11 @@ def main():
     print('Num fizzbuzzed: '+ str(fizzbuzzcount))
     print('')
 
-def get_valid_input(prompt): #this is a nice validation loop to check the inputs. It does run both number_of_turns & lsat_number
+"""
+this is a nice validation loop to check the inputs. 
+It does run both number_of_turns & lsat_number
+"""
+def get_valid_input(prompt):
     while True:
         user_input = input(prompt)
         try:
